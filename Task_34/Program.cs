@@ -17,9 +17,10 @@ for (int i = 0; i < Array.Length; i++)
 
 for (int i = 0; i < Array.Length; i++)
 {
-if (Array[i] % 2 == 0);
-Number++;
+    if (Array[i] % 2 == 0);
+    Number++;
 }
+
 Console.WriteLine ($"количество чётных чисел в массиве -> {Number}");
 
 
