@@ -13,11 +13,7 @@ for (int i = 0; i < Array.Length; i++)
 {
     Array[i] = new Random().Next(100, 1000);
     Console.WriteLine($"array[{i}] = {Array[i]}\n");
-}
-
-for (int i = 0; i < Array.Length; i++)
-{
-    if (Array[i] % 2 == 0);
+    if (Array[i] % 2 == 0)
     Number++;
 }
 
